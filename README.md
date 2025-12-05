@@ -1,5 +1,14 @@
 # Panic Attacks – Power BI Report
 
+## Data Source and Preparation
+
+- The dataset is stored in **Snowflake**.
+- It was **loaded and connected to Power BI directly from Snowflake** using the native connector.
+- Before building the report, I created several **SQL queries in Snowflake** to:
+  - Explore the raw data
+  - Check data quality (missing values, outliers, distributions)
+  - Build a better understanding of the relationships between variables
+
 ## Dataset
 
 The report uses a **panic attacks** dataset.  
